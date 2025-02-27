@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Index</title>	
+	<link href="css/about.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+	
+<div class="frame">
+	
+<div class="header">
+	
+	<h1>Marguerite Paglierani</h1>
+
+	<div class ="image">
+		<img src="images/prof_img.jpg" alt="Image"/>
+	</div>
+		
+</div>
+	
+	
+<nav>
+	<a href="#" onclick="showContent('home')">Home</a>
+	<a href="#" onclick="showContent('resume')">Resume</a>
+  	<a href="#" onclick="showContent('GRFX')">Graphic Design</a>
+	<a href="#" onclick="showContent('CW')">Creative Writing</a>
+</nav>
+	
+<section id="home">
+	<h2>Home</h2>
+	<div class="text">
+		<p>Hello, I am Marguerite Paglierani!</p>
+
+		<p>I earned my degree in English from the University of Massachusetts in Lowell, graduating in the Fall of 2023. Now, I am embarking on a career in Graphic Design, with a focus on Web Design. Alongside this, I nurture a keen interest in Creative Writing and find joy in refining and editing works of fiction.</p>
+
+		<p>Beyond academia, I find solace and inspiration in the realms of journaling, writing, and continuous learning. It's during the process of honing my writing skills and delving into coding languages that my passion and creativity truly thrive. Expressing myself through various mediums, including creative writing and graphic design, provides a vital outlet for my artistic endeavors.</p>
+
+		<p>This virtual portfolio showcases not only my resume, but also some of my most significant graphic design projects and original creative writing. For a deeper dive into my coding projects, you can also explore my GitHub linked below!</p>
+
+		<p>Please, enjoy!</p>
+	</div>
+</section>
+
+<section id="resume">
+	<h2>Resume</h2>
+	<embed src="resume2024.pdf" type="application/pdf">
+</section>
+
+<section id="GRFX">
+	<h2>Graphic Design</h2>
+	
+	<div class="text">
+		<h3>Museum Redesign</h3>
+		<p>For this project, we were asked to choose a museum and redesign their logo. I chose the Museum of Bad Art in Boston, whose logo is very outdated and does not transfer well onto branding materials.</p><br>
+		<p>I played with primary colors, creating a fun and bubbly symbol that overlaps in a playful way. The whole idea was to inject some energy and contemporary flair into their branding.</p><br>
+		<p>Then, I paired the symbol with a mix of Berlin Sans FB and Comic Sans MS for the wordmark. These fonts bring out a creative, diverse, and unconventional feel to the overall logo.</p>
+	</div>
+	<embed src="museum-rebrand.pdf" type="application/pdf">
+	
+	<br>
+	<br>
+	
+	<div class="text">
+		<h3>Typeface Specimen</h3>
+		<p>This Typeface Specimen delves into the distinctive font family known as 'Sansita.' To me, Sansita exudes a spirited energy, akin to the refreshing sip of cold orange juice on a sunny day. It was this lively essence that I aimed to breathe into the project.</p><br>
+		<p>Embracing a vibrant palette dominated by shades of oranges and blues, I crafted unique graphics to accompany the exploration of this captivating font. The intention was to seamlessly intertwine visual appeal with insightful information, offering a delightful and immersive experience into the world of Sansita."</p>
+	</div>
+	<embed src="type-specimen.pdf" type="application/pdf">
+	<br>
+	<br>
+	<br>
+
+</section>
+
+<section id="CW"  class="active">
+	<h2>Creative Writing</h2>
+	
+	<div class="text">
+		<h3>Girls</h3>
+		<p><i>Short Story</i></p>
+	</div>
+	<embed src="girls" type="application/pdf">
+	
+	<div class="text">
+		<h3>Passenger</h3>
+		<p><i>Short Story</i></p>
+	</div>
+	<embed src="passenger" type="application/pdf">
+	
+	<br><br><br>
+	
+</section>
+
+	
+</div>	
+	
+	
+<div class="footer">
+	<a href="mailto:m.paglierani@outlook.com" title="Email!">
+		<i data-feather="inbox" class="footer-icon" ></i>
+	</a>
+	
+	<a href="https://github.com/mpaglierani" title="GitHub" target="_blank">
+		<i data-feather="github" class="footer-icon"></i>
+	</a>
+	
+	<a href="https://www.linkedin.com/in/marguerite-paglierani-8b6515183/" title="Goodreads" target="_blank">
+		<i data-feather="linkedin" class="footer-icon"></i>
+	</a>
+	
+	<a href="https://www.instagram.com/margurrrite/" title="Instagram" target="_blank">
+		<i data-feather="instagram" class="footer-icon"></i>
+	</a>
+
+</div>
+	
+
+	<script>
+        function showContent(sectionId) {
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+
+		var selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('active');
+		}
+	</script>
+	
+	<script>feather.replace()</script>
+	
+</body>
+</html>
